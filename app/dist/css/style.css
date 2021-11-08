@@ -423,7 +423,7 @@ button:hover::before,
 
 .hero__image {
   position: relative;
-  background-image: url("./images/bg-intro-mobile.svg");
+  background-image: url("/images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -456,7 +456,7 @@ button:hover::before,
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("./images/bg-intro-desktop.svg");
+    background-image: url("/images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
@@ -470,7 +470,7 @@ button:hover::before,
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("./images/image-mockups.png");
+  background-image: url("/images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -595,11 +595,6 @@ button:hover::before,
   padding-bottom: 5em;
 }
 
-@media (min-width: 64em) {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .articles h2 {
   padding-top: 2em;
   text-align: center;
@@ -620,14 +615,14 @@ button:hover::before,
 }
 
 @media (min-width: 40em) {
-  .article__grid {
+  .article__grid__grid {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 64em) {
-  .article__grid {
+  .article__grid__grid {
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
