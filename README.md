@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](screenshot.png)
 
 ### Links
 
-- Live Site URL: [https://vukang.github.io/easybank-frontendmentorChallange/]
+- Live Site URL: (https://vukang.github.io/easybank-frontendmentorChallange/)
 
 ## My process
 
