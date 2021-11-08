@@ -7,11 +7,6 @@
   padding-bottom: 5em;
 }
 
-@include breakpoint-up(large) {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .articles h2 {
   padding-top: 2em;
   text-align: center;
