@@ -2,7 +2,10 @@
   background-color: $darkblue;
   color: $white;
   padding: 2.5rem;
-  text-align: center;
+
+  @include breakpoint-down(medium) {
+    text-align: center;
+  }
 
   .container {
     @include breakpoint-up(large) {
@@ -37,6 +40,7 @@
     @include breakpoint-up(large) {
       grid-area: logo;
       text-align: left;
+      margin-top: 1em;
     }
   }
 

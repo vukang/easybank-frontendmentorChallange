@@ -687,7 +687,12 @@ button:hover::before,
   background-color: #2d314d;
   color: white;
   padding: 2.5rem;
-  text-align: center;
+}
+
+@media (max-width: 63.9375em) {
+  .footer {
+    text-align: center;
+  }
 }
 
 @media (min-width: 64em) {
@@ -728,6 +733,7 @@ button:hover::before,
   .footer__logo {
     grid-area: logo;
     text-align: left;
+    margin-top: 1em;
   }
 }
 
